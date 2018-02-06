@@ -1,0 +1,367 @@
+/* 后台管理页面样式  */
+body{
+	margin: 0;
+	/*background-color: #006666;*/
+}
+
+.topdiv{
+	width: 100%;
+	border-bottom: #CCCCCC solid 1px;
+}
+.middiv{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 100px;
+	border-bottom: #CCCCCC solid 1px;
+	margin-top: 70px;
+}
+.buttomdiv{
+	width: 100%;
+	min-height: 100px;
+	border-top: 2px solid #EBF0EF;
+	background-color: #016FD0;
+	color: #FAFAFA;
+	font-size: 16px;
+	line-height: 100px;
+	padding: 2px 20px 2px 50px;
+}
+
+.FixedHead{
+	width: 100%;
+	height: 40px;
+	background-color: #FAFAFA;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+	padding-left: 30px;
+}
+
+/* 首页样式 */
+.LeftGuilder {
+	background-color: #016FD0;
+}
+.AdminerInfor {
+	color: #FFFFFF;
+	border-bottom: 1px solid #1188E4;
+	padding: 20px 25px;
+}
+.AdminerHead{
+	margin-top: 20px;
+}
+.AdminerHeadImg {
+	width: 90px;
+	height: 90px;
+	border-radius: 60px;
+}
+.LeftGuilderUl{
+	list-style: none;
+	padding:0 15px;
+}
+.LeftGuilderUlItem{
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	color: #FAFAFA;
+	line-height: 45px;
+	padding: 5px 10px;
+	border-bottom: 1px solid #DDF4DF;
+}
+.LeftGuildIistItem{
+	width: 100%;
+	font-size: 18px;
+	color: #FAFAFA;
+}
+.RightContent {
+	background-image: url("../img/sysbackimg.jpg");
+}
+.RightHead {
+	width: 100%;
+	height: 100px;
+	opacity: 1;
+	padding: 40px 30px 10px 30px;
+	color: #FAFAFA;
+	text-align: right;
+	border-bottom: 1px solid #016FD0;
+}
+.ParkName{
+	padding: 10px 30px;
+	font-size: 24px;
+	line-height: 20px;
+	border-right: 1px solid #FAFAFA;
+}
+.loginicon{
+	padding: 10px 20px;
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.RightContentForm{
+	width: 100%;
+	min-height: 500px;
+	padding: 20px 20px;
+	background-color: #FAFAFA;
+}
+.CurrentPath{
+	padding: 0px 15px 5px 15px;
+	background-color: #FAFAFA;
+	border-bottom: 3px solid #0098DC;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+
+/* 职位列表页面样式 */
+.RecruitJobList{
+	width: 100%;
+	padding: 20px 15px 20px 15px;
+}
+.RecruitedJobList {
+	width: 100%;
+	padding-top: 10px;
+}
+.RecruitedJobItem {
+	width: 100%;
+	height: 170px;
+	border-bottom: 1px dashed #DDDDDD;
+	padding: 0px 0px 0px 10px;	
+	margin-top: 5px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+}
+div.RecruitedJobItem:hover,
+div.RecruitedJobItem:focus {
+	background-color: #EEEEEE;
+}
+.ResumeCount{
+	width: 100%;
+	color: #333333;
+	font-size: 90px;
+	text-align: center;
+	line-height: 90px;
+}
+.DeleteJobOper{
+	width: 50px;
+	height: 169px;
+	background-color: #FF4A53;
+	border-radius: 2px;
+	word-spacing: 10px;
+	font-size: 18px;
+	padding: 20px 15px 5px 15px ;
+	color: #FAFAFA;
+	cursor: pointer;
+}
+.JobDemand{
+	width: 100%;
+	padding: 0 10px 0 0;
+	word-break: break-all;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 25px;
+}
+/* 发布工作页面  */
+.RightFormBody{
+	width: 100%;
+	padding: 20px;
+}
+.JobStatementOl {
+	width: 100%;
+	padding: 15px 150px 10px 15px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #333333;
+}
+.JobDemandOl {
+	width: 100%;
+	padding: 15px 150px 10px 15px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #333333;
+}
+.DeleteLiIcon{
+	cursor: pointer;
+	color: #FF4A53;
+}
+
+/* 任务中心页面样式 */
+.TaskCenter{
+	width: 100%;
+	height: auto;
+	padding: 20px 15px 20px 15px;
+}
+
+/* 新闻咨询中心样式 */
+.NewsCenter{
+	width: 100%;
+	height: auto;
+	padding: 20px 15px 20px 15px;
+}
+.NewsTable{
+	width: 100%;
+	padding-top: 10px;
+}
+
+/* 3-23 */
+.AuditPage{
+	width: 100%;
+	height: auto;
+	padding: 20px 15px 20px 15px;
+}
+.ItemContent{
+	width: 98%;
+	height: auto;
+	font-size: 16px;
+	line-height: 20px;
+	color: #666666;
+	padding-left: 15px;
+}
+
+/* 修改工作，新闻公告页面样式 */
+.BackOpinion{
+	width: 100%;
+	padding: 5px 50px 0px 15px;
+	font-size: 16px;
+	color: #FF4A53;
+	line-height: 20px;
+}
+
+/* 3-26 */
+/* 公司中心页面  */
+.ParkCompanyItem {
+	width: 100%;
+	height: 150px;
+	border-bottom: 1px dashed #DDDDDD;
+	padding: 0px 0px 0px 10px;
+	margin-top: 5px;
+	cursor: pointer;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+}
+div.ParkCompanyItem:hover,
+div.ParkCompanyItem:focus {
+	background-color: #EEEEEE;
+}
+.DeleteJobOper{
+	width: 50px;
+	height: 149px;
+	background-color: #FF4A53;
+	border-radius: 2px;
+	word-spacing: 10px;
+	font-size: 18px;
+	padding: 20px 15px 5px 15px ;
+	color: #FAFAFA;
+	cursor: pointer;
+}
+.ParkCommpanyIconPic{
+	width: 129px;
+	height: 129px;
+}
+.ParkCommpanyList {
+	width: 100%;
+	padding-top: 10px;
+}
+
+/* 个人中心样式 */
+
+/* 设置个人照片的大小 */
+.photograph{
+	width: 115px;
+	height: 140px;
+	line-height:140px;
+	background-color: #f1f1f1;
+}
+.imgSize{
+	width: 115px;
+	height: auto;
+}
+.uploadBtnDiv{
+	width: 97px;
+	height: 31px;
+}
+/* 自定义的上传按钮背景31*81(未点击的情况) */
+.uploadBack{
+	width: 81px;
+	height: 31px;
+	background-image: url("../img/uploadbtn.png");
+}
+/* 自定义的上传按钮背景(点击的情况) */
+.uploadBackClick{
+	width: 81px;
+	height: 31px;
+	background-image: url("../img/uploadbtn.png");
+	background-color: #ddd;
+}
+/* 隐藏input输入框，并设置绝对定位到最顶层
+ * 在点击时看到的是背景div的样式，单击的焦点是顶层的input
+ */
+.uploadInputsty{
+	width: 81px;
+	height: 31px;
+	cursor: pointer;
+	position: absolute;
+	top: 140px;
+	margin-left: 8px;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	opacity:0;
+}
+
+.uploadSignalsty{
+	width: 108px;
+	height: 38px;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	opacity:0;
+}
+.signalBack{
+	width: 106px;
+	height: 34px;
+	margin-top: 20px;
+}
+.signalBtn{
+	width: 400px;
+	float: right;
+}
+.signalLeftBtn{
+	width: 150px;
+	float: left;
+}
+.signalRightLabel{
+	width: 250px;
+	margin-top: 27px;
+	float: right;
+}
+/* 输入组的的样式 */
+.inputGroupSty{
+	background-color: #eee;
+	color: #333333;
+}
+.textAlign{
+	text-align: center;
+	padding-right: 20px;
+}
+/* 出错提示信息格式 */
+.errorMsg{
+	color: #dd391a;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+}
+/* 去掉边框和背景色 */
+.removeBorderAndBack{
+	border: none;
+	background-color: #fff;
+}
+.removeMarginBottom5px{
+	margin-bottom: 0px;
+}
+
