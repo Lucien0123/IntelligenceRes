@@ -1,0 +1,117 @@
+
+/****User中心CSS样式表*********/
+#mymenu .icon-chevron-right {
+    float: right;
+    margin-top: 3px;
+    opacity: .75;
+}
+
+.panel-actions {
+    float: right;
+    margin-top: -6px;
+    margin-right: -10px;
+}
+
+<!--用户登录外部样式表-->
+
+#abc {
+	color: #fff;
+}
+
+#LogingHeadDiv {
+	width:420px;
+	padding-top: 10px;
+	text-align:center;
+}
+
+#loginTitleP {
+	color:#666;
+	font-size:20px;
+}
+.logininput{
+	padding: 30px 30px;
+}
+
+.btnLogin {
+	line-height:15px;
+	width:60px;
+}
+
+a[name = "logingHerf"]:link {
+	text-decoration:none;
+	font-size:12px;
+	color:#333;
+}
+
+a[name = "logingHerf"]:hover {
+	color:#999;
+	text-decoration:underline;
+}
+
+a[name = "logingHerf"]:visited {
+	text-decoration:none;
+	color:#333;
+}
+
+a[name = "logingHerf"]:active {
+	text-decoration:none;
+	color:#666;
+}
+
+
+#linkDiv {
+	width:100%;
+	height:auto;
+	margin-top:440px;
+	position:absolute;
+	z-index:10;
+}
+
+.apple1 {
+	width: 70px;
+	height: 60px;
+	position: relative;
+	left: 0px;
+	top: 15px;
+	margin-left: 30px;
+}
+a[name = "iphone"]:link {
+	text-decoration:none;
+	font-size:12px;
+	color:#fff;
+}
+
+a[name = "iphone"]:hover {
+	color:#fff;
+}
+
+a[name = "iphone"]:visited {
+	text-decoration:none;
+	color:#fff;
+}
+
+a[name = "iphone"]:active {
+	text-decoration:none;
+	color:#666;
+}
+a[name = "CopyHr"]:link {
+	font-size:14px;
+	color:#fff;
+	line-height:25px;
+	text-decoration:none;
+}
+
+a[name = "CopyHr"]:hover {
+	color:#F90;
+	text-decoration:underline;
+}
+
+a[name = "CopyHr"]:visited {
+	text-decoration:none;
+	color:#fff;
+}
+
+a[name = "CopyHr"]:active {
+	text-decoration:underline;
+	color:#999;
+}
